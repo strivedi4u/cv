@@ -1,0 +1,75 @@
+.slider{
+	.carousel-item{
+		
+		._nb_mc{
+			a{
+				position:relative;
+				margin:20px 0px;
+				padding:10px 18px;
+				float:left;
+				text-align:center;
+				color:#fff;
+				font-size:15px;
+				text-transform:uppercase;
+				border:1px solid#fff;
+				transition: 0.5s all ease;
+			}
+			p{
+				line-height:30px;
+				color:#e0e0e0;
+				font-size:16px;
+				font-weight:400;
+				letter-spacing:0.8px;
+				text-align:left;
+				margin:20px 0px;
+			}
+			h2{
+				font-size: 40px;
+				color:#fff;
+			    line-height: 60px;
+			    letter-spacing: 1px;
+			    text-transform: uppercase;
+			    text-align: left;
+			}
+			 transition: 0.5s all ease;
+			 -webkit-animation-duration: 1s;
+    		animation-duration: 1s;
+    		-webkit-animation-fill-mode: both;
+    		animation-fill-mode: both;
+    		animation-name: fadeInUp;
+			position:relative;
+			top:30%;
+		}
+
+			.kl_bd_we{
+				top:50px !important;
+			}
+
+		._kl_gh_er{
+			& img{
+				@media screen and(max-width:768px){
+					width:64%;
+				}
+				opacity:1;
+				width:100%;
+			}
+			position:relative;
+			transition: 0.5s all ease;
+			-webkit-animation-duration: 1s;
+    		animation-duration: 1s;
+    		-webkit-animation-fill-mode: both;
+    		animation-fill-mode: both;
+    		animation-name: fadeInUp;
+			top:87px;
+		}
+		& img{
+			@media screen and (max-width:768px){
+				opacity:0.4;
+
+			}
+			opacity:0.1;
+		}
+		background:#000;
+	}
+	overflow:hidden;
+}

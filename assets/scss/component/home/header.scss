@@ -1,0 +1,26 @@
+._main_nav{
+	padding: 8px;
+}
+.logo{
+	padding: 12px;
+	a{
+		color: #FFF;
+		font-weight: 600;
+
+	}
+}
+
+.container{
+    max-width: 1170px;
+    @media screen and (max-width: 575px){
+        padding: 10px 15px;
+    }
+}
+@media screen and (max-width:767px){
+	.nav{
+		margin-top: -58px;
+		.menu-toggle{
+			margin-right: -15px;
+		}
+	}
+}
